@@ -1,7 +1,6 @@
 # Simple REST
 ![](https://img.shields.io/badge/Code%20Style-Standard-yellow.svg)
 ![](https://img.shields.io/badge/Dependencies-Express-green.svg)
-![](https://img.shields.io/badge/License-Beerware-yellowgreen.svg)
 
 
 ## Prerequiste
@@ -11,7 +10,7 @@
 ## Installation
 ### Clone
 ```
-$ git clone https://github.com/tatasfachrul/simple-REST
+$ git clone https://github.com/rizkigumilar/SimpleRestAPI-Week2-Arkademy.git
 $ cd simple-REST
 $ npm install
 ```
@@ -35,7 +34,4 @@ SERVER_PORT=9999
 $ npm start
 ```
 
-### License
-----
-
-[Beerware](https://en.wikipedia.org/wiki/Beerware "Beerware") © [Tatas](https://github.com/tatasfachrul "Tatas")
+### Thank you
