@@ -6,6 +6,7 @@ module.exports = {
     if (result) {
 
       if (result[0]) {
+        resultPrint.message = "Berikut list bukunya"
         resultPrint.status_code = status || 200
         resultPrint.result = result
       } else {
@@ -20,7 +21,18 @@ module.exports = {
 
     let print = {}
     print.status = status
+    print.message = "Data berhasil ditambahkan"
     print.result = result
+
+    return res.status(status).json(print);
+  },
+
+  responPatch: (res, result, status) => {
+    let print = {}
+    print.status = status
+    print.message = `Data berhasil di update`
+    print.result = result
+
     return res.status(status).json(print);
   },
 
